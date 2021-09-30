@@ -15,9 +15,8 @@ conda install -c conda-forge opencv matplotlib jupyterlab scikit-image seaborn g
     4	pip install ipykernel
     5	python -m ipykernel install --user --name kosa --display-name "Python KOSA"
     6	conda install -c conda-forge jupyterlab
-    7	conda install -c conda-forge jupyterlab
 
-    8 conda env create -n kosa -f env_kosa.yaml
+    7   conda env create -n kosa -f env_kosa.yaml
       
     #
     # To activate this environment, use
