@@ -10,10 +10,10 @@ conda activate {name}
 conda install -c conda-forge opencv matplotlib jupyterlab scikit-image seaborn git
 
     1	conda deactivate base
-    2	conda create --name kosa python=3.7.6
-    3	conda activate kosa 
+    2	conda create --name kosa python=3.11
+    3	conda activate ant
     4	pip install ipykernel
-    5	python -m ipykernel install --user --name kosa --display-name "Python KOSA"
+    5	python -m ipykernel install --user --name ant --display-name "Python ant"
     6	conda install -c conda-forge jupyterlab
 
     7   conda env create -n kosa -f env_kosa.yaml
