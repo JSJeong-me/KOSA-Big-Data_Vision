@@ -10,7 +10,7 @@ conda activate {name}
 conda install -c conda-forge opencv matplotlib jupyterlab scikit-image seaborn git
 
     1	conda deactivate base
-    2	conda create --name kosa python=3.11
+    2	conda create --name ant python=3.11
     3	conda activate ant
     4	pip install ipykernel
     5	python -m ipykernel install --user --name ant --display-name "Python ant"
